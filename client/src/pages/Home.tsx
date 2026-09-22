@@ -2,11 +2,11 @@ import { ArrowRight, CalendarDays, MapPin } from "lucide-react";
 import { Link } from "wouter";
 import { FestivalLayout } from "@/components/FestivalLayout";
 
-const heroImage = "/manus-storage/pagode-capao-hero_15475659.jpg";
+const heroImage = "/images/pagode-capao-hero.jpg";
 const artists = [
-  { name: "Joana da Vila", meta: "Sexta · 22h · Palco Do Quintal", image: "/manus-storage/artist-1_54cb6210.jpg" },
-  { name: "Mestre Nego D", meta: "Sábado · 20h · Palco Da Roda", image: "/manus-storage/artist-2_e6e0a76e.jpg" },
-  { name: "Batuque da Laje", meta: "Sábado · 18h · Palco Da Roda", image: "/manus-storage/artist-3_52feb90e.jpg" },
+  { name: "Joana da Vila", meta: "Sexta · 22h · Palco Do Quintal", image: "/images/artist-1.jpg" },
+  { name: "Mestre Nego D", meta: "Sábado · 20h · Palco Da Roda", image: "/images/artist-2.jpg" },
+  { name: "Batuque da Laje", meta: "Sábado · 18h · Palco Da Roda", image: "/images/artist-3.jpg" },
 ];
 
 export default function Home() {

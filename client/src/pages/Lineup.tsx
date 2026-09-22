@@ -2,10 +2,10 @@ import { useState } from "react";
 import { FestivalLayout } from "@/components/FestivalLayout";
 
 const images = [
-  "/manus-storage/artist-1_54cb6210.jpg",
-  "/manus-storage/artist-2_e6e0a76e.jpg",
-  "/manus-storage/artist-3_52feb90e.jpg",
-  "/manus-storage/pagode-capao-hero_15475659.jpg",
+  "/images/artist-1.jpg",
+  "/images/artist-2.jpg",
+  "/images/artist-3.jpg",
+  "/images/pagode-capao-hero.jpg",
 ];
 const acts = [
   { artist: "Joana da Vila", genre: "Pagode contemporâneo", day: "Sexta", time: "22h00", stage: "Do Quintal", img: images[0] },
