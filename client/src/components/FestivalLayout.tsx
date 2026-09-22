@@ -27,7 +27,14 @@ export function FestivalLayout({ children }: PropsWithChildren) {
   return (
     <div className="site-shell">
       <div className="top-strip" aria-label="Informação do festival">
-        <div className="ticker"><span>14 + 15 nov 2026</span>·<span>Fábrica de Cultura Capão</span>·<span>Pagode, samba e comunidade</span>·<span>14 + 15 nov 2026</span>·<span>Fábrica de Cultura Capão</span>·<span>Pagode, samba e comunidade</span></div>
+        <div className="ticker-track">
+          <div className="ticker-group">
+            <span>14 + 15 nov 2026</span><b aria-hidden="true">·</b><span>Fábrica de Cultura Capão</span><b aria-hidden="true">·</b><span>Pagode, samba e comunidade</span><b aria-hidden="true">·</b>
+          </div>
+          <div className="ticker-group" aria-hidden="true">
+            <span>14 + 15 nov 2026</span><b aria-hidden="true">·</b><span>Fábrica de Cultura Capão</span><b aria-hidden="true">·</b><span>Pagode, samba e comunidade</span><b aria-hidden="true">·</b>
+          </div>
+        </div>
       </div>
       <header className="site-header">
         <div className="container header-row">

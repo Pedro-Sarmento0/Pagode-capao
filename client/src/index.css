@@ -37,9 +37,11 @@ button { cursor: pointer; }
 .hand { font-family: "Caveat", cursive; }
 
 .top-strip { background: var(--gold); color: var(--wine-deep); font-size: .69rem; font-weight: 900; letter-spacing: .13em; overflow: hidden; text-transform: uppercase; white-space: nowrap; }
-.ticker { display: inline-block; min-width: 100%; padding: .56rem 0; animation: ticker 20s linear infinite; }
-.ticker span { padding: 0 1.4rem; }
-@keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-22%); } }
+.ticker-track { animation: ticker-scroll 24s linear infinite; display: flex; width: max-content; will-change: transform; }
+.ticker-group { align-items: center; display: flex; flex-shrink: 0; padding: .56rem 0; }
+.ticker-group span { padding: 0 1.4rem; }
+.ticker-group b { font-weight: 900; }
+@keyframes ticker-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 
 .site-header { position: relative; z-index: 30; background: var(--cream); border-bottom: 1px solid var(--line); }
 .header-row { display: flex; align-items: center; justify-content: space-between; min-height: 78px; gap: 1.25rem; }
