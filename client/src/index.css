@@ -37,11 +37,11 @@ button { cursor: pointer; }
 .hand { font-family: "Caveat", cursive; }
 
 .top-strip { background: var(--gold); color: var(--wine-deep); font-size: .69rem; font-weight: 900; letter-spacing: .13em; overflow: hidden; text-transform: uppercase; white-space: nowrap; }
-.ticker-track { animation: ticker-scroll 24s linear infinite; display: flex; width: max-content; will-change: transform; }
-.ticker-group { align-items: center; display: flex; flex-shrink: 0; padding: .56rem 0; }
+.ticker-track { animation: ticker-scroll 22s linear infinite; display: flex; width: max-content; will-change: transform; }
+.ticker-group { align-items: center; display: flex; flex: 0 0 max-content; justify-content: space-around; min-width: 100vw; padding: .56rem 0; }
 .ticker-group span { padding: 0 1.4rem; }
 .ticker-group b { font-weight: 900; }
-@keyframes ticker-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@keyframes ticker-scroll { from { transform: translate3d(0, 0, 0); } to { transform: translate3d(-50%, 0, 0); } }
 
 .site-header { position: relative; z-index: 30; background: var(--cream); border-bottom: 1px solid var(--line); }
 .header-row { display: flex; align-items: center; justify-content: space-between; min-height: 78px; gap: 1.25rem; }
@@ -261,4 +261,5 @@ button { cursor: pointer; }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior:auto !important; transition-duration:.01ms !important; }
+  .ticker-track { animation-duration: 24s !important; animation-iteration-count: infinite !important; }
 }
