@@ -60,3 +60,8 @@ pnpm dlx vercel --prod
 - `client/src/index.css`: identidade visual e animações do site
 
 O formulário de contato e os botões de compra são demonstrações visuais e não processam pagamentos nem enviam dados para um backend.
+
+##Integrantes do grupo
+- Pedro Sarmento
+- Miguel Milher
+- Kaue Rodrigues
