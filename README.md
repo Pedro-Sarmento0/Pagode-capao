@@ -61,7 +61,7 @@ pnpm dlx vercel --prod
 
 O formulário de contato e os botões de compra são demonstrações visuais e não processam pagamentos nem enviam dados para um backend.
 
-##Integrantes do grupo
+## Integrantes do grupo
 - Pedro Sarmento
 - Miguel Milher
 - Kaue Rodrigues
